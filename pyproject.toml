@@ -2,7 +2,7 @@
 name = "foremetrics"
 version = "2.0.0"
 description = "Easily add metrics to your system – and actually understand them using automatically customized Prometheus queries"
-authors = ["Martin <martin@foreai.co>","Fiberplane <info@fiberplane.com>"]
+authors = ["Martin <martin@foreai.co>", "Fiberplane <info@fiberplane.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/foreai-co/autometrics-py"
