@@ -1,7 +1,6 @@
 import urllib.parse
 import os
 from typing import Optional
-from dotenv import load_dotenv
 
 ADD_BUILD_INFO_LABELS = "* on (instance, job) group_left(version, commit) (last_over_time(build_info[1s]) or on (instance, job) up)"
 
@@ -19,7 +18,6 @@ class Generator:
     def __init__(
         self, function_name: str, module_name: str, base_url: Optional[str] = None
     ):
-        load_dotenv()
         self.function_name = function_name
         self.module_name = module_name
 
