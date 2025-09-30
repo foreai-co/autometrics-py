@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "foremetrics"
-version = "1.0.0"
+version = "2.0.0"
 description = "Easily add metrics to your system – and actually understand them using automatically customized Prometheus queries"
 authors = ["Martin <martin@foreai.co>","Fiberplane <info@fiberplane.com>"]
 license = "MIT OR Apache-2.0"
