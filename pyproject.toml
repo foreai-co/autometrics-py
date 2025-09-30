@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "autometrics"
+name = "foremetrics"
 version = "1.0.0"
 description = "Easily add metrics to your system – and actually understand them using automatically customized Prometheus queries"
-authors = ["Fiberplane <info@fiberplane.com>"]
+authors = ["Martin <martin@foreai.co>","Fiberplane <info@fiberplane.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/autometrics-dev/autometrics-py"
-homepage = "https://github.com/autometrics-dev/autometrics-py"
+repository = "https://github.com/foreai-co/autometrics-py"
+homepage = "https://github.com/foreai-co/autometrics-py"
 keywords = [
   "metrics",
   "telemetry",
