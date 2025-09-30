@@ -188,8 +188,6 @@ def autometrics(
                     caller_function_var.reset(context_token_function)
 
             return result
-
-        sync_wrapper.__doc__ = append_docs_to_docstring(func, func_name, module_name)
         return sync_wrapper
 
     def async_decorator(
@@ -261,8 +259,6 @@ def autometrics(
                     caller_function_var.reset(context_token_function)
 
             return result
-
-        async_wrapper.__doc__ = append_docs_to_docstring(func, func_name, module_name)
         return async_wrapper
 
     def pick_decorator(func):
